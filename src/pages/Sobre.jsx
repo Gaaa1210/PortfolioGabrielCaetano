@@ -1,4 +1,5 @@
 import React from 'react';
+import fotoPerfil from "/fotoDePerfil.png"
 
 const Sobre = () => {
   return (
@@ -6,57 +7,56 @@ const Sobre = () => {
       <div className="flex bg-black text-white rounded-lg shadow-lg overflow-hidden">
         
        
-        <div className="w-1/3 bg-pink-500 p-4 flex items-center justify-center">
+        <div className="w-1/3 bg-blue-500 p-4 flex items-center justify-center">
           <img
-            src="https://via.placeholder.com/300x400"
-            alt="Profile"
-            className="w-full h-auto rounded-lg"
-          />
+            src={fotoPerfil}
+            alt=""
+            className="w-full h-auto rounded-lg"/>
         </div>
         
         <div className="w-2/3 p-8">
-          <h1 className="text-4xl font-bold mb-4">Biography</h1>
+          <h1 className="text-4xl font-bold mb-4">Biografia</h1>
           <p className="mb-4">
-            I am working on a professional, visually sophisticated and technologically
-            proficient, responsive and multi-functional creative personal resume portfolio
-            template Aali.
+          Sou Gabriel Caetano, um jovem profissional de 18 anos com uma forte orientação para resultados, focado em metas e objetivos. 
+Uma das minhas maiores paixões é empreender com um foco em mudar hábitos sustentáveis. Acredito que, por meio da inovação e do comprometimento, podemos contribuir para um futuro mais verde e consciente. Estou sempre em busca de novas oportunidades e desafios que me permitam crescer e fazer a diferença no mundo dos negócios e na sociedade.
           </p>
           
           <div className="mb-8">
             <ul className="mb-4">
-              <li>Birthday: 4th April 1991</li>
-              <li>Age: 22 Yr</li>
-              <li>Residence: Canada</li>
-              <li>Address: California, USA</li>
-              <li>Email: info@domain.com</li>
-              <li>Phone: 820-885-3321</li>
-              <li>Skype: skype.0404</li>
-              <li>Freelance: Available</li>
+              <li>Nascimento: 06/04/2006</li>
+              <li>Idade: 18</li>
+              <li>Residente: Brasil</li>
+              <li>Endereço: SP, São Paulo</li>
+              <li>Email: gabrielcaetanowork@gmail.com </li>
+              <li>Telefone: 11 98505-9080</li>
+              <li>Instagram: @eusougabrielcaetano</li>
+              <li>Freelance: Valido</li>
             </ul>
           </div>
           
           <div className="flex mb-8 space-x-6">
             <div className="text-center">
-              <span className="block text-3xl font-bold">6+</span>
-              <span>Years Of Experience</span>
+              <span className="block text-3xl font-bold">2+</span>
+              <span>Anos de experiência</span>
             </div>
             <div className="text-center">
-              <span className="block text-3xl font-bold">10K</span>
-              <span>Completed Projects</span>
-            </div>
-            <div className="text-center">
-              <span className="block text-3xl font-bold">8K</span>
-              <span>Happy Customers</span>
+              <span className="block text-3xl font-bold">3</span>
+              <span>Projeto Concluidos</span>
             </div>
           </div>
           
-          <button className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
-            Download CV
-          </button>
+          {/* Fazer download do curriculo */}
+          <a
+  href="/Curriculo Gabriel Caetano TI.pdf" 
+  download="Curriculo Gabriel Caetano TI.pdf" 
+  className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">
+  Download CV
+</a> 
+
         </div>
       </div>
     </div>
   );
 };
 
-export default Sobre;
+export default Sobre;

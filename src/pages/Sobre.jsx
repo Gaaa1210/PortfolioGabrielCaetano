@@ -3,10 +3,9 @@ import React from 'react';
 const Sobre = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-black">
-      {/* Container principal */}
       <div className="flex bg-black text-white rounded-lg shadow-lg overflow-hidden">
         
-        {/* Seção da Imagem */}
+       
         <div className="w-1/3 bg-pink-500 p-4 flex items-center justify-center">
           <img
             src="https://via.placeholder.com/300x400"
@@ -15,7 +14,6 @@ const Sobre = () => {
           />
         </div>
         
-        {/* Seção do Conteúdo */}
         <div className="w-2/3 p-8">
           <h1 className="text-4xl font-bold mb-4">Biography</h1>
           <p className="mb-4">
@@ -37,7 +35,6 @@ const Sobre = () => {
             </ul>
           </div>
           
-          {/* Seção das Estatísticas */}
           <div className="flex mb-8 space-x-6">
             <div className="text-center">
               <span className="block text-3xl font-bold">6+</span>
@@ -53,7 +50,6 @@ const Sobre = () => {
             </div>
           </div>
           
-          {/* Botão de Download */}
           <button className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
             Download CV
           </button>

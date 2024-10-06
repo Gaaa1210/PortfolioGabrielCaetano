@@ -3,15 +3,13 @@ import Header from "./components/Header.jsx";
 import { Outlet } from 'react-router-dom';
 
 function App() {
-
-  return(
+  return (
     <>
-    <Header/>
-    <Outlet/>
-    <Footer/>
+      <Header />
+      <Outlet />
+      <Footer />
     </>
-
-  )
+  );
 }
 
-export default App
+export default App;

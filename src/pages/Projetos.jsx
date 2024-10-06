@@ -1,8 +1,12 @@
-export default function Projetos(){
+import React from "react";
+import ProjetosRecentes from "../components/Recentes"; 
 
-    return(
-        <>
-            <h1> PROJETOS</h1>
-        </>
-    )
+export default function Projeto() {
+  return (
+    <div className="bg-gray-100 dark:bg-black min-h-screen">
+      <main className="p-6">
+        <ProjetosRecentes />
+      </main>
+    </div>
+  );
 }

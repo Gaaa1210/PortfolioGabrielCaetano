@@ -15,6 +15,7 @@ export default function Contato() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log("Dados do Formulário:", formData); 
     alert("Mensagem enviada com sucesso!"); 
     setFormData({
       nome: "",
@@ -25,9 +26,7 @@ export default function Contato() {
   };
 
   return (
-    <div className="relative flex flex-col justify-center items-center h-[85vh] bg-gray-50 dark:bg-zinc-950">
-
-
+    <div className="relative flex flex-col justify-center items-center h-[85vh] bg-gray-100 dark:bg-black">
       <h2 className="text-3xl font-semibold text-center mb-8 dark:text-white">Entre em contato:</h2>
       <section className="flex justify-center w-full">
         <form onSubmit={handleSubmit} className="bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md w-full max-w-xl">

@@ -2,7 +2,7 @@ export default function Home(){
 
     return(
         <>
-            <h1> HOME</h1>
+            <h1> Erro 404 - Página não encontrada</h1>
         </>
     )
 }

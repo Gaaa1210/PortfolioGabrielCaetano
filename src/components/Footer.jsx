@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaLinkedin, FaInstagram, FaGithubSquare, FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithubSquare } from "react-icons/fa";
 
 export default function Footer() {
   
